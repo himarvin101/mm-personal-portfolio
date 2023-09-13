@@ -1,25 +1,17 @@
 <script setup>
+import { ref } from 'vue';
 
+const greetings = ref('Hi, I am')
+const firstName = ref('Marvin')
+const lastName = ref('Marinduque')
 </script>
 
 <template>
   <div>
-    <h1>Welcome to the homepage</h1>
-    <div>
-      something
-
-      <span>diha</span>
-    </div>
+    
   </div>
 </template>
 
-<style lang="scss">
-  div {
-    background:  red;
-    height: 200px;
+<style lang="scss" scoped>
 
-    span {
-      font-size: 20px;
-    }
-  }
 </style>

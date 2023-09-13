@@ -1,6 +1,9 @@
 <script setup>
+import '@/assets/stylesheets/font.scss'
+import '@/assets/stylesheets/main.scss'
+
 useSeoMeta({
-  title: '[title]',
+  title: 'Marvin Marinduque',
   description: '[description]',
   ogTitle: '[og:title]',
   ogDescription: '[og:description]',
