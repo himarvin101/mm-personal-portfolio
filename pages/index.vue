@@ -1,14 +1,10 @@
 <script setup>
-import { ref } from 'vue';
 
-const greetings = ref('Hi, I am')
-const firstName = ref('Marvin')
-const lastName = ref('Marinduque')
 </script>
 
 <template>
   <div>
-    
+    <HeroSection />
   </div>
 </template>
 

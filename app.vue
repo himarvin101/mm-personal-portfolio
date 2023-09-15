@@ -3,7 +3,7 @@ import '@/assets/stylesheets/font.scss'
 import '@/assets/stylesheets/main.scss'
 
 useSeoMeta({
-  title: 'Marvin Marinduque',
+  title: 'Portfolio | Marvin Marinduque',
   description: '[description]',
   ogTitle: '[og:title]',
   ogDescription: '[og:description]',
@@ -23,7 +23,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/favicon.png'
+      href: '/favicon.ico'
     }
   ]
 })
