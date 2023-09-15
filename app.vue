@@ -3,12 +3,12 @@ import '@/assets/stylesheets/font.scss'
 import '@/assets/stylesheets/main.scss'
 
 useSeoMeta({
-  title: 'Portfolio | Marvin Marinduque',
-  description: '[description]',
-  ogTitle: '[og:title]',
-  ogDescription: '[og:description]',
-  ogImage: '[og:image]',
-  ogUrl: '[og:url]',
+  title: 'This is me Portfolio | Marvin Marinduque',
+  description: 'Hey you, yeah..',
+  ogTitle: 'Something',
+  ogDescription: 'Something',
+  ogImage: '@/assets/favicon.ico',
+  ogUrl: 'https://himarvin101.github.io/mm-personal-portfolio/',
   twitterTitle: '[twitter:title]',
   twitterDescription: '[twitter:description]',
   twitterImage: '[twitter:image]',
@@ -22,8 +22,8 @@ useHead({
   link: [
     {
       rel: 'icon',
-      type: 'image/png',
-      href: '/favicon.ico'
+      type: 'image/ico',
+      href: '@/assets/favicon.ico'
     }
   ]
 })
