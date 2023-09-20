@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { ref, reactive } from "vue";
 
-const navigations = [{
-  label: "Home",
-  to: "/"
-},
+const navigations = [
 {
-  label: "About Me",
-  to: "/about"
+  label: "About",
+  to: "/"
 },
 {
   label: "Works",
