@@ -12,6 +12,10 @@ const navigations = [{
 {
   label: "Works",
   to: "/works"
+},
+{
+  label: "Contact",
+  to: "/contact"
 }]
 </script>
 

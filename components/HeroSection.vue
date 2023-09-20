@@ -27,7 +27,7 @@ onMounted(() => {
         <h1 class="mb-3">Marvin Marinduque.</h1>
         <h4 class="mb-7">I'm a <span class="typing" /></h4>
         <p>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accesible, human-centered products at NAP.</p>
-        <NuxtLink role="button" class="btn">Check out my work!</NuxtLink>
+        <NuxtLink role="button" to="/works" class="btn">Check out my work!</NuxtLink>
       </div>
 
       <img class="hero--me-img absolute bottom-0" src="@/assets/images/MARVZ.png" alt="me" />
@@ -37,7 +37,6 @@ onMounted(() => {
 
 <style scoped lang="scss">
   #hero--section {
-    background: #f1d4af;
     overflow: hidden;
   }
 
