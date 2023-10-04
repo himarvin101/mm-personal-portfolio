@@ -22,7 +22,11 @@ jobs:
         run: npm run generate
 
       - name: Deploy
-        uses: himarvin101/mm-personal-portfolio@gh-pages
+        uses: himarvin101/mm-personal-portfolio@master
+        with:
+          target_branch: gh-pages
+          build_dir: build
         env:
           github_token: ${{ secrets.CI_CD_TOKEN }}
           publish_dir: ./dist
+          enable_jekyll: true
