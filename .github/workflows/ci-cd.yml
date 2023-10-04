@@ -1,11 +1,29 @@
-name: hello-world
+name: CI and CD
 on: 
   push:
     branches:
       master
 jobs:
-  sample-job:
+  build-test-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Set-up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+
+      - name: Install dependencies
+      - run: npm i
+
+      - name: Generate
+      - run: npm run generate
+
+      - name: Deploy
+        uses: himarvin101/mm-personal-portfolio@v1
+        with:
+          target_branch: gh-pages
+        env:
+          github_token: ${{ secrets.CI_CD_TOKEN }}
